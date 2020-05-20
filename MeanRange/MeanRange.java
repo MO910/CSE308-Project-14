@@ -3,7 +3,7 @@ public class Main {
 	    int X = 2 ,
 	        Y = 3,
 	        Z;
-	   Z = X + Y;
+	   	Z = X + Y;
 		System.out.println(Z);
 	}
 }
