@@ -1,3 +1,7 @@
+/*
+    made by ahmed hossam orabi 80730
+    in project 14
+*/
 import java.util.*;
 public class DuckNumber{
     public static void main(String []args){
