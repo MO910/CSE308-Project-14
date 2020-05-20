@@ -6,13 +6,12 @@ public class DuckNumber{
         int n = 10;
         int duck = 0;
         // Start looping
+        System.out.print("Type a number : ");
         for (int u = 0; u <= n; u++) {
-            System.out.print("Type a number : ");
             String num = console.nextLine();
             for (int i = 0; i < num.length(); i++) {
                 if (num.charAt(0) != '0' && num.charAt(i) == '0') {
                     duck += 1;
-                    System.out.println("is duck");
                     break;
                 }
             }
