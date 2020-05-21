@@ -21,10 +21,8 @@ public class MeanRange {
 				min = num;
 				max = num;
 			} else if (num < min) {
-				System.out.println("min");
 				min = num;
 			} else if (num > max) {
-				System.out.println("max");
 				max = num;
 			}
 			sum += num;
